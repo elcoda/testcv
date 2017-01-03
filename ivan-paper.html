@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+  .small {
+    color:grey;
+    size: 0.5em;
+    text-align: left;
+    margin-left: 3em;
+  }
+  </style>
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!--Angular-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!--ng-jsonresume-->
+  <script src="ng-jsonresume.js"></script>
+
+  <script>
+    // create a new module called mywebsite that uses ng-jsonresume as a dependency
+    angular.module('myresume', ['ng-jsonresume']);
+  </script>
+</head>
+
+<body ng-app="myresume">
+  <div class="container">
+    <resume resume-url="ivan-resume.json" template-url="templates/resume-template-paper.html"></resume>
+    <div class="small">
+    La redazione di questo curriculum è stata effettuata con jsonresume.org ed un tema AngularJS da me creato.
+    </div>
+  </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+{
+  "basics": {
+    "name": "Ivan Codarin",
+    "label": "Team leader, developer, teacher",
+    "picture": "https://dl.dropboxusercontent.com/s/xu4opkcpiu79i3j/profile-photo-small.jpg?dl=0",
+    "email": "ivan.codarin@gmail.com",
+    "phone": "(+39) 320 4350828",
+    "birthDate": "1974-11-27",
+    "website": "http://ivancodarin.it",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "Via Magretti, 10",
+      "postalCode": "33047",
+      "city": "Remanzacco",
+      "countryCode": "IT",
+      "region": "Udine"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "el_coda",
+        "url": "https://twitter.com/el_coda"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ivan.codarin",
+        "url": "https://linkedin.com/ivancodarin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Università degli Studi di Udine",
+      "position": "Responsabile gruppo di progettazione e sviluppo software ",
+      "website": "http://www.uniud.it",
+      "startDate": "2012-01-01",
+      "summary": "Coordino e lavoro in un gruppo di sviluppo software interno all'Ateneo, adottiamo metodologie Agile, ci orientiamo soprattutto verso soluzioni Web utilizzando tecnologie Opensource",
+      "highlights": [
+        "Sviluppo applicazioni Web per la gestione studenti, personale, aspetti contabili di un Ateneo",
+        "Utilizzo di framework Microsoft .NET / .NET Core / PHP / ASPNET MVC / WebApi / protocollo OData",
+        "Creazione di un framework per la generazione rapida applicativi Web denominato Hayai"
+      ]
+    },
+     {
+      "company": "Università degli Studi di Udine",
+      "position": "Project manager",
+      "website": "http://www.uniud.it",
+      "startDate": "2007-10-01",
+      "endDate": "2011-12-31",
+      "summary": "Gestione di progetti software di varie dimensioni, avvio di nuovi sistemi attraverso attività di data integration, configurazione e gestione di nuove infrastrutture applicative. Coordinamento di gruppi di personale provenienti dalle varie aree dell'Università attraverso attività di raccolta di requisiti, di analisi dei fabbisogni e di test di accettazione.",
+      "highlights": [
+        "Gestione progetto di introduzione sistema informativo studenti Esse3 all'Università di Udine (Cineca)",
+        "Gestione progetto di introduzione del sistema UGOV-Didattica all'Università (Cineca)" ,
+        "Data integrator, migrazione informazioni da DB2 AS/400, Microsoft SQLServer verso Oracle Database",
+        "Amministrazione piattaforme Oracle Databse, Oracle Application Server, Sybase Jaguar AS, Apache Tomcat e Microsoft IIS"
+      ]
+    },
+    {
+      "company": "Università degli Studi di Udine",
+      "position": "Progettazione e sviluppo software",
+      "website": "http://www.uniud.it",
+      "startDate": "1999-12-15",
+      "endDate": "2011-12-31",
+      "summary": "Mi sono occupato della progettazione e realizzazione di strumenti software basati su web per l'Università degli Studi di Udine. Tipicamente si tratta di applicativi gestionali per informatizzare procedure precedentemente basate su carte o non formalizzate. Nello stesso periodo mi sono occupato della gestione dell'infrastruttura sulla quale questi sistemi vengono ospitati lavorando su ambienti enterprise Microsoft (Windows Server, SQL Server, Internet Information server) e Linux con basi di dati PostgreSQL, MySQL e server Apache.",
+      "highlights": [
+        "Sviluppo applicazioni Web per la gestione studenti, personale, aspetti contabili di un Ateneo",
+        "Infrastruttura enterprise Microsoft (Windows Server, SQL Server, Internet Information Server",
+        "Infrastruttura enterprise Linux (RedHat Linux, Gentoo Linux, MySQL, Apache WebServer)"
+       
+      ]
+    },
+    {
+      "company": "Università degli Studi di Udine",
+      "position": "Formatore",
+      "website": "http://www.uniud.it",
+      "startDate": "1999-12-15",
+      "endDate": "2011-12-31",
+      "summary": "Ho tenuto molte docenze in corsi relativi alla gestione delle attività di ufficio attraverso pacchetti Microsoft Office. Questi corsi sono stato organizzati in gran parte dei casi dall'Università stessa, in altri da enti esterni quali AICA (Associazione Italiana per il Calcolo Automatico) o IRES FVG. Ho tenuto corsi relativi a Word, Excel, Access (a livello base ed avanzato), Macromedia Dreamwaver, Microsoft C# e .NET Framework.",
+      "highlights": [
+        "Formatore Microsoft Office",
+        "Formatore Microsoft .NET e C#"
+      ]
+    },
+     {
+      "company": "CiviForm",
+      "position": "Docente in corsi ICT",
+      "website": "http://www.civiform.it",
+      "startDate": "2003-04-01",
+      "endDate": "2006-04-01",
+      "summary": "Ho tenuto varie docenze relative al campo dell'informatica, da corsi di base, a corsi per il conseguimento della patente europea ECDL a quelli per la patente avanzata ECDL advanced. Nello stesso periodo mi sono occupato della redazione dei testi utilizzati in queste attività formative completi di una serie di esercitazioni pratiche e tutorial.",
+      "highlights": [
+        "Docente in corsi per il conseguimenti della patente Europea per l'informatica ECDL e ECDL Advanced",
+        "Creazione del materiale didattico e dei testi relativi ai corsi tenuti",
+        "Parte dei corsi riguardavano l'utilizzo di Microsoft Windows, Microsoft Office e delle loro componenti"       
+      ]
+    },
+     {
+      "company": "Collegio del Mondo Unito dell'Adriatico",
+      "position": "Gestione dipartimento IT e sviluppo software",
+      "website": "http://www.uwcad.it",
+      "startDate": "2004-01-01",
+      "endDate": "2011-12-31",
+      "summary": "Ho collaborato alcuni anni con il Collegio del Mondo Unito dell'Adriatico dove mi sono occupato principalmente dello sviluppo del sistema di gestione degli studenti offrendo una piattaforma web-based integrata con il sistema di e-learning Moodle. Per un periodo ho coordinato diverse attività del dipartimento I.T.",
+      "highlights": [
+        "Sviluppo software attraverso l'uso di sistemi opensource primariamente PostgreSQL, Java, PHP",
+        "Creazione di infrastrutture Linux based per la gestione dei serivzi web ed integrazione con piattaforma Moodle",
+        "Attività di gestione acquisti ICT, gestione tematiche privacy"       
+      ]
+    },
+    {
+      "company": "Attività di sviluppo software per piccole e medie imprese",
+      "position": "Sviluppatore e consulente",
+        "website": "http://www.ivancodarin.it",
+      "startDate": "2004-01-01",
+      "endDate": "2010-12-31",
+      "summary": "Ho offerto consulenze a diverse piccole e medie imprese in Friuli Venezia-Giulia. Mi sono occupato di selezionare software per informatizzare determinati processi o di svilupparli ad hoc per la committenza quando richieste esplicitamente. Le imprese riguardavano sia il settore dell'industria manufatturiera, l'artigianato, l'istruzione e l'accoglienza",
+      "highlights": [
+        "Consulenze relative alla selezione di software o alla creazione di infrastrutture informatiche",
+        "Sviluppo di software ad hoc per l'informatizzazione di vari processi gestionali"
+      ]
+    },
+    {
+      "company": "Contributi a comunità opensource",
+      "position": "Sviluppatore, contributor e project leader",
+      "startDate": "2004-01-01",
+      "endDate": "2010-12-31",
+      "summary": "Ho partecipato allo sviluppo di diversi prodotti opensource in maggior parte sulla piattaforma sourceforge.net. In alcuni ho contribuito fornendo funzionalità e rilasciando il mio codice sorgente, in altri casi ho svolto il ruolo di project leader.",
+      "highlights": [
+        "Contributor per progetto opencms.org, jdboforms.sf.net, meetman.sf.net",
+        "Leader per uwcsms.sf.net, jbbunit.sf.net"
+      ]
+    }
+
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo FVG",
+      "position": "Founder, champion e mentor",
+      "website": "http://coderdojofvg.it",
+      "startDate": "2014-09-01",
+      "summary": "Assieme ad un gruppo di amici abbiamo fondato CoderDojoFVG con lo scopo di diffondere un modo diverso di utilizzare l'informatica per imparare. Assieme ai ragazzi, ai loro genitori organizziamo dei pomeriggi in cui si parla di digitale in modo diverso, provando a costruire giochi, video, storie usando linguaggi di programmazione visuale (ad esempio Scratch.mit.edu) ma in cui parliamo anche dei nuovi strumenti, delle opportunità che questi offrono e dei rischi che presentano. Ho tenuto molti di questi incontri ed ho avuto modo di parlare con centinaia di ragazzi delle scuole primarie, secondarie ed i loro genitori ed insegnanti.",
+      "highlights": [
+        "Mentor",
+        "Fondatore"
+      ]
+    },
+     {
+      "organization": "Digital Champion per il comune di Povoletto",
+      "position": "Champion",
+      "website": "https://www.facebook.com/groups/campionidigitali/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-12-31",
+      "summary": "Sono stato nominato ed ho partecipato alle attività dell'associazione nazionale Digital Champions attivandomi nel comune di Povoletto e nei dintorni di Udine organizzando eventi con lo scopo di promuovere lo sviluppo della cultura, dell'economia digitale e dell'innovazione. Nell'ambito di queste attività è stato creato un gruppo di volontari del comune di Povoletto per l'organizzazione di eventi Coderdojo e sono stati organizzati eventi rivolti alla cittadinanza.",
+      "highlights": [
+        "Internet Day Povoletto",
+        "Coderdojo Povoletto"
+      ]
+    },
+      {
+      "organization": "Java User Group Udine",
+      "position": "Founder, champion e mentor",
+      "startDate": "2004-09-01",
+      "endDate": "2009-09-01",
+      "summary": "Assieme ad altri sviluppatori Java abbiamo creato uno user group a Udine tenendo degli incontri presso l'Istituto Tecnico Industriale A.Malignani di Udine. Gli incontri avevo l'obiettivo di creare condivisione su argomenti relativi all'utilizzo di tecnologie correlate al mondo Java assieme ad altri sviluppatori ed interessati.",
+      "highlights": [
+        "Mentor",
+        "Fondatore"
+      ]
+    }
+  ],
+  "education": [
+     {
+      "institution": "Università degli Studi di di Udine",
+      "area": "Abilitazione iscrizione Ordine degli Ingegneri dell'Informazione Senior - Sezione A",
+      "studyType": "Esame di Stato",
+      "startDate": "2003-09-01"
+    },
+     {
+      "institution": "Università degli Studi di di Udine",
+      "area": "Laurea specialistia in Informatica CL. 23/S",
+      "studyType": "Laurea",
+      "startDate": "2003-05-01",
+      "courses": [
+        "Ingegneria del software",
+        "Linguaggi di programmazione",
+        "Basi di dati",
+        "Elaborazione segnali ed immagini"
+      ]
+    },
+    {
+      "institution": "Università degli Studi di di Udine",
+      "area": "Laurea in Scienze dell'Informazione",
+      "studyType": "Laurea",
+      "startDate": "1999-07-08",
+      "endDate": "1994-01-01",
+      "courses": [
+        "Ingegneria del software",
+        "Linguaggi di programmazione",
+        "Basi di dati",
+        "Elaborazione segnali ed immagini"
+      ]
+    },
+     {
+      "institution": "Istituto Tecnico Commerciale A. Zanon",
+      "area": "Diploma di Ragioniere Perito Commerciale e Programmatore",
+      "studyType": "Diploma di Maturità",
+      "startDate": "1988-09-01",
+      "endDate": "1993-07-15",
+      "courses": [
+        "Ragioniere",
+        "Programmatore"
+      ]
+    }
+  ],
+  "skills": [
+     {
+      "name": "Database development",
+      "level": "Ottimo",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "Microsoft SQL Server", 
+        "Oracle"
+      ]
+    },
+     {
+      "name": "Backend development",
+      "level": "Ottimo",
+      "keywords": [
+        ".NET",
+        "REST",
+        "API", 
+        "JAVA", 
+        "Entity framework",
+        "Hibernate",
+        "Lucene",
+        "PHP",
+        "ODATA"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Ottimo",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "AngularJS"
+      ]
+    },
+     {
+      "name": "Insegnamento",
+      "level": "Ottimo",
+      "keywords": [
+        "Microsoft Office",
+        "Windows",
+        ".NET",
+        "Coding",
+        "Scratch",
+        "Arduino",
+        "Java",
+        "C#",
+        "Programmazione"
+      ]
+    }
+
+  ],
+  "languages": [
+     {
+      "language": "Italiano",
+      "fluency": "Madrelingua" 
+    },
+    {
+      "language": "Inglese",
+      "fluency": "Buono" 
+    },
+     {
+      "language": "Tedesco",
+      "fluency": "Scolastico"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Studio metodologie Agili di sviluppo software",
+      "keywords": [
+        "Extreme Programming",
+        "Scrum", "Lean software development"
+      ]
+    },
+     {
+      "name": "Diffusione della cultura digitale",
+      "keywords": [
+        "Incontri pubblici","Digitale in età scolare",
+        "Coderdojo"
+      ]
+    },
+    {
+      "name": "Studio modelli organizzativi",
+      "keywords": [
+        "Lean startup","Flat organisations"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+
+
+
+<link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
+
+<style>
+
+  resume body{
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    color: #363636;
+    background: #334960;
+  }
+  resume blockquote {
+    font-size: 1em;
+  }
+
+  resume .container{
+    margin-top: 80px;
+    margin-bottom: 15px;
+    background: #fff;
+  }
+
+  resume #photo-header{
+    margin-top: -75px;
+  }
+
+  resume #photo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    /*background: #334960;*/
+    background: #227c74;
+    
+    display: inline-block;
+  }
+  resume #photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  resume #text-header h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    letter-spacing: -1px;
+  }
+  resume #text-header h1::first-line{
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1.5em;
+  }
+  resume #text-header h1 span{
+    color: #334960;
+    opacity: 0.7;
+  }
+  resume #text-header h1 sup{
+    opacity: 0.5;
+  }
+  resume #text-header:after{
+    width: 100%;
+    height: 3px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 15px;
+    content: '';
+    display: block;
+  }
+
+  resume .box{
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+  }
+  resume .box h2{
+    color: #227c74;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  resume #awards,
+  resume #education{
+    margin-top: 20px;
+    margin-bottom: 0;
+    position: relative;
+    padding: 1em 0;
+    list-style: none;
+  }
+  resume #awards:before,
+  resume #education:before {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 35px;
+    top: 0;
+    content: ' ';
+    display: block;
+    background: #32475c;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  }
+  resume #awards li,
+  resume #education li{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    float: left;
+  }
+  resume #awards .year,
+  resume #education .year{
+    width: 14%;
+    background: #fff;
+    padding: 10px;
+    font-weight: 700;
+    display: inline-block;
+  }
+  resume #awards .description,
+  resume #education .description{
+    width: 83%;
+    display: inline-block;
+    background: #eee;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  resume #awards .description:after,
+  resume #education .description:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: -16px;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    border-right-color: #eee;
+    border-width: 8px;
+    pointer-events: none;
+  }
+  resume #awards .description h3,
+  resume #education .description h3{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+  }
+  resume #awards .description p,
+  resume #education .description p{
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  resume .job{
+    margin-bottom: 15px;
+  }
+  resume .job .details {
+    margin-left: 3%;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  resume .job .where{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  resume .job .year{
+    opacity: 0.7;
+  }
+  resume .job .profession{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  resume .job .description{
+    line-height: 1.5em;
+  }
+  resume .job .highlights{
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  resume .job .job-details {
+    padding-left: 5%;
+    width: 100%;
+  }
+  resume .publication {
+    margin-bottom: 0;
+  }
+  resume .publication .name{
+    font-size: 1em;
+    font-weight: bold;
+  }
+  resume .publication .year{
+      opacity: 0.7;
+  }
+  resume .publication p{
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  resume .contact-item{
+    width: 100%;
+    float: left;
+  }
+  resume .contact-item .icon{
+    padding: 8px;
+    margin-bottom: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    color: #32475c;
+    background: #eee;
+  }
+  resume .contact-item:last-child .icon{
+    border-bottom: none;
+  }
+  resume .contact-item .title{
+    width: 80%;
+    width: calc(100% - 55px);
+    font-weight: 700;
+    opacity: 0.9;
+  }
+  resume .contact-item .title.only{
+    margin-top: 10px;
+  }
+  resume .contact-item .description{
+    width: 80%;
+    width: calc(100% - 55px);
+    color: #334960;
+  }
+
+  resume .item-interests,
+  resume .item-skills{
+    height: 30px;
+    color: #334960;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  resume .interest,
+  resume .skill{
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #32475c;
+    position: relative;
+    font-size: .85em;
+  }
+  resume .skill-level {
+    background-color: #227c74;
+    border-radius: 4px;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: .75em;
+    position: absolute;
+    margin: 1px 10px;
+  }
+
+  resume #language-skills .skill{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  </style>
+
+  <div class="resume-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img data-ng-src="{{basics.picture}}" alt="avatar"/>
+            </div>
+            
+            <div id="text-header" style="margin-top: 10px;">
+              <h1>{{basics.name}}<br><span>{{basics.label}}</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>{{basics.summary}}</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box" ng-if="work">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix"  ng-repeat="item in work">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">{{item.company}}</div>
+                    <div class="address">
+                      <a href="{{item.website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{item.website}}</a>
+                    </div>
+                    <div class="year">{{item.startDate | date :  "MMMM"}} {{item.startDate | date : "yyyy"}} - {{item.endDate | date :  "MMMM"}} {{item.endDate | date :  "yyyy"}}</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">{{item.position}}</div>
+                    <div class="description">
+                      {{item.summary}}
+                      <div class="highlights" ng-if="item.highlights">Highlights</div>
+                      <ul class="list-group" ng-if="item.highlights">
+                        <li class="list-group-item" ng-repeat="highlight in item.highlights">
+                          {{highlight}}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box" ng-if="awards">
+            <h2><i class="fa fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+            
+              <li ng-repeat="award in awards">
+                <div class="year pull-left">{{award.date | date:"MMMM"}} {{award.date | date:"yyyy"}}</div>
+                <div class="description pull-right">
+                  <h3>{{award.awarder}}</h3>
+                  <p><i class="fa fa-trophy ico"></i> {{award.title}}</p>
+                  <p>{{award.summary}}</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- VOLUNTEER -->
+          <div class="box" ng-if="volunteer">
+            <h2><i class= "fa fa-group ico"></i> Volunteer</h2>
+              <div class="job clearfix" ng-repeat="volunteer in volunteer">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">{{volunteer.organization}}</div>
+                    {{volunteer.website}}
+                    <div class="address">
+                      <a href="{{volunteer.website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{volunteer.website}}</a>
+                    </div>
+                    <div class="year">{{volunteer.startDate|date:"MMMM"}}{{volunteer.startDate|date:"yyyy"}} – {{volunteer.endDate|date:"MMMM"}}{{volunteer.endDate|date:"yyyy"}}</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">{{volunteer.position}}</div>
+                    <div class="description">
+                      {{volunteer.summary}}
+
+                      <div class="highlights" ng-if="highlights">Highlights</div>
+                      <ul class="list-group" ng-if="highlights" ng-repeat="highlight in volunteer.highlights">
+                        <li class="list-group-item" ng-repeat="highlight in work.highlights">
+                          {{highlight}}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item" ng-if="basics.location">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+               <div class="title pull-right">{{basics.location.address}}</div>
+              <div class="title {{basics.location.address}}only pull-right">{{basics.location.city}} {{basics.location.region}}, {{basics.location.region}} {{basics.location.postalCode}} {{basics.location.countryCode}} </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">{{basics.phone}}</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
+              <div class="title only pull-right"><a href="{{basics.website}}" target="_blank">{{basics.website}}</a></div>
+            </div>
+            <div class="contact-item" ng-if="basics.profiles" ng-repeat="profile in basics.profiles">
+              <div class="icon pull-left text-center"><span class="fa fa-{{profile.network.toLowerCase()}}-square fa-fw"></span></div>
+              <div class="title pull-right">{{profile.network}}</div>
+              <div class="description pull-right"><a href="{{profile.url}}" target="_blank">{{profile.username}} {{profile.url}}</a></div>
+            </div>
+          </div>
+     
+          <!-- EDUCATION -->
+          <div class="box" ng-if="education">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix" ng-repeat="education in education">
+              <li>
+                <div class="year pull-left">{{education.startDateYear}} {{education.endDateYear}}</div>
+                <div class="description pull-right">
+                  <h3>{{education.institution}}</h3>
+                    <p><i class= "fa fa-graduation-cap ico"></i> {{education.studyType}}</p>
+                  <p>{{education.area}}</p>
+                  <p>
+                    GPA: {{education.gpa}}
+                  </p>
+                    <div ng-if="education.courses">Courses</div>
+                    <ul class="list-group" ng-if="education.courses">
+                      <li class="list-group-item" ng-if="education.courses" ng-repeat="course in education.courses">
+                        {{course}}
+                     </li>
+                    </ul>   
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="box" ng-if="skills">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix" ng-repeat="skill in skills">
+              <div class="item-skills">
+                  {{skill.name}}
+                  <span class="skill-level">{{skill.level}}</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                  <span class="skill badge" ng-repeat="keyword in skill.keywords">{{keyword}}</span>
+              </div>
+            </div>
+          </div>
+      
+          <!-- PUBLICATIONS -->
+          <div class="box" ng-if="publications">
+            <h2><i class="fa fa-book ico"></i> Publications</h2>
+  
+            <div class="publication panel panel-default" ng-repeat="publication in publications">
+              <div class="panel-heading">
+                <div class="name panel-title">{{publication.name}}</div>
+              </div>
+              <div class="panel-body">
+                <div class="publisher"><i class= "fa fa-bookmark ico"></i> {{pupublication.blisher}}</div>
+                <div class="year">{{publication.day}} {{publicationmonth}} {{publication.year}}</div>
+                {{publication.website}}
+                <div class="address">
+                  <a href="{{publication.website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{publication.website}}</a>
+                </div>
+                <p>{{publication.summary}}</p>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box" ng-if="languages">
+            <h2><i class="fa fa-language ico"></i>Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item" ng-repeat="item in languages">{{item.language}}
+                  <span class="skill badge pull-right">{{item.fluency}}</span></li>
+            </ul>
+          </div>
+
+          <!-- HOBBIES -->
+          <div class="box" ng-if="interestes">
+            <h2><i class="fa fa-heart ico"></i> Interests</h2>
+            {{interests}}
+            <div class="interests clearfix" ng-repeat="interest in interests">
+              <div class="item-interests">
+                  {{interest.name}}
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix" ng-repeat="keyword in interest.keywords">
+                <span class= "interest badge"> {{interest.keyword}}</span>
+              </div>
+            </div>
+          </div>
+     
+          <!-- REFERENCES -->
+          <div class="box" ng-if="references">
+            <h2><i class= "fa fa-check-square ico"></i> References</h2>
+            <blockquote ng-repeat="item in references">
+              <div>{{item.reference}}</div>
+              <footer>
+                <a href="{{item.website}}" target= "_blank">{{item.name}}</a>
+              </footer>
+            </blockquote><br>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </div>
